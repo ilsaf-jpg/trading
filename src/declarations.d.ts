@@ -1,3 +1,1 @@
-import React from "react"
-
-export declare module "react-tradingview-widge"
+declare module "react-tradingview-widget"

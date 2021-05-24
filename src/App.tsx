@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <TradingViewWidget symbol="NASDAQ:AAPL" />
-      {/* <ChartsPage /> */}
+      {/* <ChartsPage />*/}
     </div>
   )
 }
