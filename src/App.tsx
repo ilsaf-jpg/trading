@@ -1,8 +1,8 @@
 import React from "react"
 import "./App.css"
-import { Top } from "./components/Charts/Top"
+import { Top } from "./components/Top/Top"
 import { Profile } from "./components/Profile.tsx/Profile"
-import { Info } from "./components/Info.tsx/Info"
+import { Info } from "./components/Info/Info"
 import { MainPage } from "./components/MainPage/MainPage"
 import { BrowserRouter, Route } from "react-router-dom"
 
