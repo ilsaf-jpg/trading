@@ -15,14 +15,15 @@ export const Accordion: React.FC<PropsType> = (props) => {
 
   const content = useRef(null)
 
-  const a = content.current
-
   function toggleAccordion() {
     setActiveState(setActive === "" ? "active" : "")
     setRotateState(
       setActive === "active" ? "accordion__icon" : "accordion__icon rotate"
     )
-    setHeightState(setActive === "active" ? " 0px" : `${a.scrollHeight}px`)
+    //@ts-ignore: Object is possibly 'null'.
+    setHeightState(
+      setActive === "active" ? " 0px" : `${content.current.scrollHeight}px`
+    )
   }
 
   return (
