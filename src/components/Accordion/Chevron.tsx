@@ -2,7 +2,7 @@ import React from "react"
 
 type PropsType = {
   className: string
-  height: any
+  height?: number
   width: number
   fill: string
 }

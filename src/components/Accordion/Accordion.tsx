@@ -5,7 +5,7 @@ import Chevron from "./Chevron"
 type PropsType = {
   title: string
   content: string
-  scrollHeight: any
+  scrollHeight?: number
 }
 
 export const Accordion: React.FC<PropsType> = (props) => {
@@ -20,8 +20,9 @@ export const Accordion: React.FC<PropsType> = (props) => {
     setRotateState(
       setActive === "active" ? "accordion__icon" : "accordion__icon rotate"
     )
-    //@ts-ignore: Object is possibly 'null'.
+
     setHeightState(
+      //@ts-ignore: Object is possibly 'null'.
       setActive === "active" ? " 0px" : `${content.current.scrollHeight}px`
     )
   }
