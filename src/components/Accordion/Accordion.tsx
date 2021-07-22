@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react"
 import "./Accordion.css"
-import Chevron from "./Chevron"
+import { Chevron } from "./Chevron"
 
 type PropsType = {
   title: string
@@ -46,5 +46,3 @@ export const Accordion: React.FC<PropsType> = (props) => {
     </div>
   )
 }
-
-export default Accordion

@@ -1,5 +1,5 @@
 import React from "react"
-import Accordion from "../Accordion/Accordion"
+import { Accordion } from "../Accordion/Accordion"
 import s from "./Info.module.css"
 
 // type PropsType = {

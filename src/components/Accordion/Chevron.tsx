@@ -23,5 +23,3 @@ export const Chevron: React.FC<PropsType> = (props) => {
     </svg>
   )
 }
-
-export default Chevron
